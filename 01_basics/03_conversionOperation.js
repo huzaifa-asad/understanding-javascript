@@ -60,3 +60,26 @@ let isLoggedIn = 1
 let booleanIsLoggedIn = Boolean(isLoggedIn)
 console.log(typeof booleanIsLoggedIn);
 console.log(booleanIsLoggedIn);
+
+console.log("*******************************************Operations****************************************************");
+
+let num = 10
+let negativeNum = -num
+console.log(negativeNum);
+
+let str1 = "Huzaifa "
+let str2 = "Asad"
+let str3 = str1 + str2
+console.log(str3); // Concatenation of strings
+
+// Arithmetic operations
+console.log("5" + 5); // String concatenation
+console.log(5 - "5"); // Subtraction, converts "5" to number
+console.log(5 + "5" + 5);
+console.log(5 + 5 + "5"); // Addition, then concatenation
+console.log("5" + "5" + 5); 
+
+// For boolean operations
+console.log(true + false); // 1 (true is 1, false is 0
+console.log(-true + true + "true"); // -1 + 1 + "true" => 0 + "true" => "0true" ( number concatenation)
+console.log("true" + true + false); // => "truetruefalse" (string concatenation)
