@@ -20,18 +20,19 @@ code.forEach( (item, index, arr) => {
     //console.log(item, index, arr);
 } )
 
+// forEach with array of objects
 coding = [
     {
         languageName: "JavaScript",
-        languagefile: "js"
+        languageFileName: "js"
     },
     {
         languageName: "python",
-        languagefile: "py"
+        languageFileName: "py"
     },
     {
         languageName: "Ruby",
-        languagefile: "rb"
+        languageFileName: "rb"
     }
 
 ]
