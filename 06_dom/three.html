@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Understanding</title>
+</head>
+<body style="background-color: #212121; color: white">
+    
+</body>
+
+<script>
+    const div = document.createElement('div')
+    console.log(div)
+    div.className = "main"
+    div.id = Math.round(Math.random() * 10 + 1)
+    div.setAttribute("title", "generated title")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    // to add text
+    // div.innerText = "Dom in javascript" // it is not recommended
+    const addText = document.createTextNode("Dom in javascript")
+    div.appendChild(addText)
+
+    // Now add it to the body
+    document.body.appendChild(div)
+</script>
+
+</html>
