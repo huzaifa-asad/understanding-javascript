@@ -1,6 +1,6 @@
 # Understanding JavaScript
 
-This repository is a comprehensive guide to learning JavaScript, covering fundamental concepts, syntax, and practical examples. It is organized into topic-based folders, each containing hands-on code samples and explanations.
+>This repository is a comprehensive guide to learning JavaScript, covering fundamental concepts, syntax, and practical examples. It is organized into topic-based folders, each containing hands-on code samples and explanations.
 
 ## Folder Structure & Topics
 
