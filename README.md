@@ -67,5 +67,6 @@ This repository is a comprehensive guide to learning JavaScript, covering fundam
 - Practice with real code examples
 - Learn about variables, data types, functions, control flow, loops, DOM, and events
 - See practical async and event-driven code in action
+
 ---
 Happy coding and learning JavaScript!
