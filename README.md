@@ -69,4 +69,5 @@
 - See practical async and event-driven code in action
 
 ---
+
 Happy coding and learning JavaScript!
